@@ -5,7 +5,7 @@ class CreatePages < ActiveRecord::Migration[5.2]
       t.text 'position'
       t.string 'permulink'
       t.string 'visible'
-      t.references :subjects
+      t.references :subject
       t.timestamps
     end
   end

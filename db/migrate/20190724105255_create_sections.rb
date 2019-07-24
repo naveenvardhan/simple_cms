@@ -6,7 +6,7 @@ class CreateSections < ActiveRecord::Migration[5.2]
       t.string 'visible'
       t.text 'content_type'
       t.text 'content'
-      t.references :pages
+      t.references :page
       t.timestamps
     end
   end
